@@ -1,0 +1,12 @@
+README.md
+setup.py
+inventory/__init__.py
+inventory/bulk_discount.py
+inventory/eoq.py
+inventory/rop.py
+inventory/safety_stock.py
+inventory/total_cost.py
+inventorylib.egg-info/PKG-INFO
+inventorylib.egg-info/SOURCES.txt
+inventorylib.egg-info/dependency_links.txt
+inventorylib.egg-info/top_level.txt

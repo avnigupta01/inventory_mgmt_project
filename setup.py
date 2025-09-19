@@ -8,16 +8,16 @@ long_desc = readme_path.read_text(encoding="utf-8") if readme_path.exists() else
 )
 
 setup(
-    name="inventorylib",  # Change only if you pick a different package name for PyPI
-    version="0.1.0",      # Use semantic versions: MAJOR.MINOR.PATCH
+    name="inventorylib",  # package name
+    version="0.1.0",      # semantic versioning
     description="Inventory management library (EOQ, ROP, Safety Stock, Total Cost, Bulk Discount EOQ)",
     long_description=long_desc,
     long_description_content_type="text/markdown",
     author="Avni Gupta, Samruddhi Jain, Pranav Mantri",
-    author_email="guptavni001@gmail.com, samruddhij1603@gmail.com, author3@example.com",
-    url="",  # optional; add your GitHub repo URL later if you make one
+    author_email="guptavni001@gmail.com",  # one email recommended
+    url="https://github.com/avnigupta01/inventorylib",  # GitHub repo link
     packages=find_packages(exclude=("tests", "docs", "examples")),
-    install_requires=[],  # add deps here if you ever need them
+    install_requires=[],  
     python_requires=">=3.8",
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -25,6 +25,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Intended Audience :: Education",
-        "Topic :: Scientific/Engineering :: Information Analysis",
-    ],
+        "Topic :: Scientific/Engineering :: Information Analysis"
+    ]
 )
+
